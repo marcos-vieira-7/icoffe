@@ -1,0 +1,85 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+}
+
+
+.navbar {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; /* align middle */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #073b4c;
+  padding-right: 20px;
+}
+
+.footer { 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: cadetblue;
+  width: 100%;
+  height: 30px;
+}
+
+
+a {
+  font-size: 20px;
+  margin-right: 20px;
+  color:aliceblue;
+  text-decoration: none; /*remove underline */
+}
+
+a:hover {
+  font-size: 18px;
+}
+
+.content {
+  display: flex;
+  padding-top: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: center;
+  /* align-items: center; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  height: 100vh;
+  background-color: #ffd166;
+}
+
+.paragrafo {
+  text-align: justify;
+}
+
+.article {
+  width: 50%;
+}
+
+.primeira-letra {
+  font-size: 1.5em; /* Tamanho maior para a primeira letra */
+  font-weight: bold; /* Pode adicionar negrito para mais destaque */
+  float: left; /* Adiciona um pouco de espaço à direita da letra */
+  margin-right: 5px; /* Ajuste conforme necessário */
+}
+
+@media screen and (max-width: 900px) {
+  .article {
+    width: 100%;
+  }
+  
+}
